@@ -16,13 +16,13 @@ that expectation gives little to no result.
 
 Here's what makes BRouter unique:
 
-* It uses <a href="costfunctions.html">freely configurable routing profiles</a>
-* It works <a href="offline.html">fully offline on any Android phone</a> and is interfaced to some of the most popular Android map tools
-* It uses a sophisticated <a href="algorithm.html">routing-algorithm</a> with <a href="elevation.html">elevation consideration</a>
-* It offers <a href="alternatives.html">alternative route calculations</a>
-* It supports <a href="vianogo.html">via and nogo-points</a>
-* It can <a href="cycleroutes.html">consider long distance cycle routes</a>
-* Routing data is available worldwide with automatic weekly updates</a>
+* It uses freely configurable routing profiles
+* It works fully offline on any Android phone and is interfaced to some of the most popular Android map tools
+* It uses a sophisticated routing-algorithm with elevation consideration
+* It offers alternative route calculations
+* It supports via and nogo-points
+* It can consider long distance cycle routes
+* Routing data is available worldwide with automatic weekly updates
 
 # How to use this image
 
