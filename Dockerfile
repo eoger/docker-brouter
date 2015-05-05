@@ -7,4 +7,6 @@ ADD . /usr/src/app
 RUN git clone https://github.com/abrensch/brouter.git
 RUN cd brouter && mvn clean install -pl brouter-server -am
 
+EXPOSE 17777
+
 CMD java -cp brouter/brouter-server/target/brouter-server-1.2-jar-with-dependencies.jar btools.server.RouteServer segments profiles customprofiles 17777 4
