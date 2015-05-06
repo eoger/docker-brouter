@@ -10,4 +10,4 @@ EXPOSE 17777
 
 ONBUILD COPY . /usr/src/app
 
-CMD java -cp brouter/brouter-server/target/brouter-server-1.2-jar-with-dependencies.jar btools.server.RouteServer segments profiles customprofiles 17777 4
+CMD java Xmx128M -Xms128M -Xmn8M -DmaxRunningTime=300 -cp brouter/brouter-server/target/brouter-server-1.2-jar-with-dependencies.jar btools.server.RouteServer segments profiles customprofiles 17777 1
